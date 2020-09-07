@@ -1,11 +1,14 @@
 {
   "name": "wx-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自动化更新package版本号的终端命令",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "node ./index.js"
+  },
+  "bin": {
+    "wx-version": "./index.js"
   },
   "repository": {
     "type": "git",
